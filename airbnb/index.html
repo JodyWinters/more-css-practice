@@ -1,28 +1,58 @@
-<!-- Markup this content with HTML here -->
-[Page Title: Airbnb]
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
 
-Book unique homes and experiences.
+  <meta charset="utf-8"/>
+  <title>Airbnb</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
 
+<h1>Book unique homes and experiences.</h1>
 
-Where
-[Text Input]
+<form>
+  <label>WHERE</label>
+  <input class="full-extension" type="text" value="Anywhere">
+</form>
 
-Check In
-[Date Input]
+<form class="double">
+  <div>
+    <label>CHECK IN</label>
+    <input class="half-extension" type="date"/>
+  </div>
 
-Check Out
-[Date Input]
+  <div>
+    <label>CHECK OUT</label>
+    <input class="half-extension" type="date"/>
+  </div>
+</form>
 
-Guests
-[Number Input]
+<form>
+  <label>GUESTS</label>
+  <input class="full-extension" type="number" placeholder="1 guest"/>
+</form>
 
-Search
-[Submit Input]
+<form>
+  <input class="submit" class="full-extension" type="submit" value="Search"/>
+</form>
 
+<h2>Explore Airbnb</h2>
 
-Explore Airbnb
-Homes
-Experiences
-Restaurants
+<div class="links">
+  <section>
+    <img src="https://via.placeholder.com/100" alt="Inside of a bedroom"/>
+    <a href="#">Homes</a>
+  </section>
 
+  <section>
+    <img src="https://via.placeholder.com/100" alt="Three people riding bicycles"/>
+    <a href="#">Experiences</a>
+  </section>
+
+  <section>
+    <img src="https://via.placeholder.com/100" alt="table with food"/>
+    <a href="#">Restaurants</a>
+  </section>
+</div>
+
+</html>

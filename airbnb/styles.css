@@ -1,1 +1,66 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("https://via.placeholder.com/1000x150");
+  color: #f5f5f5;
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+.double {
+  display: flex;
+}
+
+div input {
+  width: 48vw;
+}
+
+.submit {
+  color: #f5f5f5;
+  background-color: #d45252;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+a:link {
+  width: 20vw;
+  padding: 40px 20px 40px 5px;
+  text-decoration: none;
+  color: black;
+}

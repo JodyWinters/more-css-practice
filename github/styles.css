@@ -34,6 +34,7 @@ a:link {
   display: flex;
   justify-content: space-around;
   margin: 20px 25% 20px 25%;
+  font-size: 1.3rem;
 }
 
 main{
@@ -48,4 +49,12 @@ h2+p {
 
 img {
   margin: auto;
+}
+
+section {
+  display: flex;
+}
+
+div {
+  margin-left: 15px;
 }
